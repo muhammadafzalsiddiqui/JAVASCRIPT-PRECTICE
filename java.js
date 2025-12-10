@@ -31,4 +31,31 @@
 //  var num1 = 4
 //  alert(num1 +4)
 
-var
+// Math expressions:Familiar operators
+
+//  var num = 2
+//  alert(num + 3)
+
+//  we can also write 
+// alert( 2 + 5)
+
+// alert ( 10 % 2)
+
+// var num = 1
+// var num2 = num++
+// alert(num2)
+//  var a = 1
+//  var b = a++ + a++
+//  console.log(b)
+
+//  var a = 1
+//  var c = 2
+//  var b = a++ + a++ + c++ - --a + a++ + c++
+//  console.log(b)
+
+//  var a = 2
+//  var b = 1
+//  var c = 3
+//  var d = 4
+//  var e = a++ - b++ + a++ + c++ + ++d + a++ + c++ + ++d
+//  console.log(e)
