@@ -133,5 +133,17 @@
 //  )
 
 
+// var age = prompt("Enter your age") 
+// var hasID = true
+// if(age >=8){
+//     if(hasID===true)
+//     {
+//     console.log("Enter Alowed")
+//     }
+//     else{("not Allowed")}
+// }
+// else{("to young")}
+
+
 
 
