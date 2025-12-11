@@ -58,6 +58,7 @@
 //  var c = 3
 //  var d = 4
 //  var e = a++ - b++ + a++ + c++ + ++d + a++ + c++ + ++d
+<<<<<<< HEAD
 //  console.log(e)
 // var a = 1
 // console.log(--a)
@@ -131,3 +132,6 @@
 //     console.log("color not match")
 //  )
 
+=======
+//  console.log(e)
+>>>>>>> fe24ef98edf3656b5c71aeed43034186940df4f5
