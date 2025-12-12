@@ -144,6 +144,41 @@
 // }
 // else{("to young")}
 
+// array prectice 
+// const one = [2,
+//     "afza", 3,
+//     7
+// ]
+// console.log(one[3])        <space is not proble in array initi
 
+// const two = [null , 3, , 5, "khan"]
+// console.log(two[3])
 
+// let age =[20,30,40,50]
+// age[2]=2
+// console.log(age)
 
+// let age1 = [20,80,70, "imran",60]
+// console.log(age1)
+// age1[4]=3
+// age1 [3]="afzal"
+// console.log(age1)
+
+// we have four method in Array shift add remove startadd startremove endremove endadd remndomadd 
+
+var uname = ["afzal", "imran", "kashif", "haseeb","yaseen"]
+// uname.pop()
+// uname.push("afzal",3)
+// uname.unshift("kashif",5)
+// uname.shift()
+// console.log(uname)
+
+// uname.splice(2,2,"new" ,"Nan")
+// uname.splice(2,0,"new" ,"Nan") adding the new  element befor in 2 index
+// uname.splice(1,3)
+// uname.splice(0,2)
+// uname.splice(1,1,"afzal")
+// var fname= uname.slice(2,4)
+// console.log(fname)
+//  let mname =["afzl","a","b"].concat(fname)
+//  console.log(mname)
