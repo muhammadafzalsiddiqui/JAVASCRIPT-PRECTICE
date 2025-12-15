@@ -166,7 +166,7 @@
 
 // we have four method in Array shift add remove startadd startremove endremove endadd remndomadd 
 
-var uname = ["afzal", "imran", "kashif", "haseeb","yaseen"]
+// var uname = ["afzal", "imran", "kashif", "haseeb","yaseen"]
 // uname.pop()
 // uname.push("afzal",3)
 // uname.unshift("kashif",5)
@@ -182,3 +182,69 @@ var uname = ["afzal", "imran", "kashif", "haseeb","yaseen"]
 // console.log(fname)
 //  let mname =["afzl","a","b"].concat(fname)
 //  console.log(mname)
+ 
+
+// loop prectice
+// for (let i = 1; i< 9; i++){
+//    console.log("number "+ i) 
+
+// }
+// print random table 
+// var num = prompt("enter table number")
+//  for ( i = 1 ; i<=10; i++ ){
+//     console.log(num + " X " + i + " = " + num* i) 
+//  }
+
+
+// var num = prompt("enter table number")
+//  for ( i = 10 ; i >= 1; i--){
+//     console.log(num + " X " + i + " = " + num* i) 
+//  }
+
+// for (let i = 10; i >= 1; i--) {
+//   console.log(`5 x +{i} = {5 * i}`);
+// }
+
+// console.log("js is running");
+// var arr = ["cat", "dog", "snake", "a", "b", "c"];
+
+// var newArr = arr.splice(0,2);
+// console.log("new arr=>", newArr);
+// console.log("arr=>", arr);
+
+//  0.  1.  2. 3.   4
+// i = 0; i < stulist.length; i++ ){
+   // if// var arr = ["a","b","c","d","e","b","c","d","e"]
+
+// for (let i = 0; i < arr.length; i++) {
+// console.log(arr[i])
+// }
+
+
+// var stulist = ["ahmed","yaseen", "usman", "khuzaima", "afzal"] 
+// var estudent= prompt("Enter absent student")
+// for ((estudent == stulist[i]){
+//       console.log("you are absent", stulist[i])
+//       break;
+//    }
+  
+//  else{
+//    console.log("not found")
+//  }
+// }
+
+// var arr =[1,2,3,4,5,6]
+// // console.log(arr.length)
+// // console.log(arr.length-1)
+// console.log("last element",arr[arr.length-1])
+
+//  2D Array.
+
+var a2d = [
+
+   [1,2,3],
+   [1,5,9],
+   [1,6,7],
+]
+
+console.log("jjjjj",a2d[2][1])
