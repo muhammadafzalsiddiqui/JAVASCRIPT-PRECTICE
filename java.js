@@ -240,11 +240,96 @@
 
 //  2D Array.
 
-var a2d = [
+// var a2d = [
 
-   [1,2,3],
-   [1,5,9],
-   [1,6,7],
-]
 
-console.log("jjjjj",a2d[2][1])
+//    [1,2,3],
+//    [1,[5,7,[8,9,[0]]],9],
+//    [1,6,7,[2,3,4,[7,"t",]]],
+// ]
+// console.log("jjjjj",a2d[2][3][3][1]) 
+// console.log(a2d[1][1][2][2])
+// console.log(a2d)
+
+// var arry1 =[[1,2,3],[4,5,6],[7,8,9]]
+// var arry2 = [[9,8,7],[6,5,4],[3,2,1]]
+//  var result= arry1[2][1] + arry2[0][1]
+//  console.log(result)
+
+//  var arry1 =
+//  [[1,2,3],
+//  [4,5,6],
+//  [7,8,9]]
+
+//  for(i = 0; i<arry1.length; i++){
+//   let arry2 = 3;
+//       for( j = 0 ; j<arry1[i].length; j++){
+//          // arry2 += arry1[i][j];
+//          arry2 = arry2+ arry1[i][j]
+//  }
+//   console.log("Row " + i + " sum = " + arry2); 
+//  }
+
+
+//  var arry1 = [
+//   [1,2,3],
+//   [4,5,6],
+//   [7,8,9]
+// ];
+
+// for (let j = 0; j < arry1[0].length; j++) {
+//   let arry2 = 3;   // har column ke liye starting value
+//   for (let i = 0; i < arry1.length; i++) {
+//     arry2 = arry2 + arry1[i][j];
+//   }
+//   console.log("Column " + j + " sum = " + arry2);
+// }
+
+
+//  const matrix = [
+//   [1,2,3],
+//   [4,5,6],
+//   [7,8,9]
+// ];
+// matrix[0][0]= "x"
+// for(let row of matrix ){
+//    const rowString = row.join('');
+//    console.log(row)
+// }nsole.log( rowString);
+//  
+
+// co spread Operator
+//  var a = [1,2,3,4]
+//  var b = [5,6,7,8]
+//  var c =a.concat(b)
+//  console.log(c)
+//  console.log(a)
+
+// array to String
+
+// let a = ["afza","usman","yaseen","imran", "kashif"]
+// console.log(a)
+// console.log(a.toString())
+// console.log(a.join("____ "))
+// console.log(a.indexOf("usman"))
+
+
+
+// a.sort();
+// console.log(a)
+
+
+
+//    var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+// 2  var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+// 3  var fullNames = [];
+// 5  for
+// (var i = 0; i < firstNames.length; i++) {
+// 6    for
+// (var j = 0; j < lastNames.length; j++) {
+// 7      
+// fullNames.push(firstNames[i] + lastNames[j]);
+// 67
+// }
+// 9    
+// 10 }
