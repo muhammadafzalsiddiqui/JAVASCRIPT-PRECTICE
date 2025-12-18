@@ -333,3 +333,45 @@
 // }
 // 9    
 // 10 }
+
+
+// let input = prompt("Enter numbers separated by commas:");
+// // let numbers = input.split(",").map(Number);
+
+// for (let num of numbers) {
+//     if (num % 2 === 0) {
+//         console.log(num + " is Even");
+//     } else {
+//         console.log(num + " is Odd");
+//     }
+// }
+
+//  var city = "karachi";
+//  console.log(city.toUpperCase());
+
+//  var city = "karachi";
+// var titleCaseCity = city.charAt(2).toUpperCase() + city.slice(2).toLowerCase();
+// console.log(titleCaseCity); // "Karachi"
+//  var cityToCheck = prompt("Enter your city");
+// cityToCheck = cityToCheck.toLowerCase();
+
+// var firstChar = cityToCheck.slice(0, 1).toUpperCase();
+// var otherChars = cityToCheck.slice(1);
+
+// var cappedCity = firstChar + otherChars;
+
+// alert("Normalized city: " + cappedCity);
+//  var first_name= prompt("enter first name")
+//  var last_Name = prompt("Enter your last name")
+//   var f_name = first_name.slice(0, 1);
+//   var l_name = first_name.slice(.length-1);
+//    f_name = f_name.toUpperCase();
+//    l_name = l_name.toLowerCase();
+//    var c_name = f_name + l_name;
+//    console.log(c_name);
+// var firstChar = cityToCheck.slice(0, 1);
+// var otherChars = cityToCheck.slice(1);
+// firstChar = firstChar.toUpperCase();
+// otherChars = otherChars.toLowerCase();
+// var cappedCity = firstChar + otherChars;
+// console.log(cappedCity)
