@@ -375,3 +375,19 @@
 // otherChars = otherChars.toLowerCase();
 // var cappedCity = firstChar + otherChars;
 // console.log(cappedCity)
+
+// var month= prompt("enter month name")
+// var months = month.length;
+//  if (month> 3){
+//    uname = month.slice( 0.3)
+//    console.log(uname)
+//  }
+//  else{console.log ("car smaler then 3")}
+
+// var firstName = prompt("enter your name ?")
+// var first_name = firstName.slice(0,1)
+// first_name = firstName.toUpperCase();
+// var remain = firstName.slice(1)
+// remain = remain.toLowerCase();
+// var com = first_name+ remain
+// console.log(first_name)
