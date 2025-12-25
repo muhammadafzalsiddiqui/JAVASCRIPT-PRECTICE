@@ -447,12 +447,13 @@
 // 5 }
 // dice game
 // console.log (Math.floor(Math.random()*totalNumberOfOutcome+1)+Shift)
-                                          // 6  - 1+1
+                                          // 6-1+1  1
 // console.log (Math.floor(Math.random()*Max-Min+1)+min)
 // console.log(Math.floor(num*6)+1)
 
 // var num = Math.random()
 // console.log(Math.floor(num*6)+1)
+
 // Number •	Number Guessing Game
 // var num1 = Math.random()
 // var num2 = (num1 *3)
@@ -475,3 +476,7 @@
 // console.log(num1)
 // console.log(num1.toFixed(2))
 // console.log(num3)
+
+
+// OTP GRN formula
+console.log(Math.floor(Math.random()*(9999-1000+1))+1000)
