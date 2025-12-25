@@ -405,3 +405,73 @@
 // let str = "Afzal loves JavaScript";
 // console.log(str.slice(6));      
 // console.log(str.substring(0,5));
+
+// var ali = prompt(" enter your name ")
+//  var all = ali.length;
+//  for( var i =0; i <all;  i++ ){
+//    if ( ali.slice(i, i+ 3) ===> "   "){
+//       console.log("double space not allwo");
+//       break
+//  }
+//  else
+//    console.log("no space")
+//  }
+
+//  1 var str = prompt("Enter some text");
+// 2 var numChars = str.length;
+// 3 for (var i = 0; i < numChars; i++) {
+// 4   if (str.slice(i, i + 2) === " ") {
+// 5     
+// alert("No double spaces!");
+// 6     
+// break;
+// let str = "HelloWorld";
+// console.log(str.slice(-6,-2));
+// var firstChar = text.indexOf("World War II");
+// console.log(firstChar)
+
+// var yname = prompt("Enter city name ")
+// // var nname = yname.length;
+// for( var i = 0 ; i< yname.length; i++){
+//    if (yname.slice(i, i+12) === "World War II"){
+// console.log("find")
+//    }
+// }
+
+
+// 1 for (var i = 0; i < text.length; i++) {
+// 2   if (text.slice(i, i + 12) === "World War II") {
+// 3     
+// text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
+// 4   }
+// 5 }
+// dice game
+// console.log (Math.floor(Math.random()*totalNumberOfOutcome+1)+Shift)
+                                          // 6  - 1+1
+// console.log (Math.floor(Math.random()*Max-Min+1)+min)
+// console.log(Math.floor(num*6)+1)
+
+// var num = Math.random()
+// console.log(Math.floor(num*6)+1)
+// Number •	Number Guessing Game
+// var num1 = Math.random()
+// var num2 = (num1 *3)
+// var num3 = Math.ceil(num2)
+// var  num4 =prompt("enter a number")
+// if (num3 > num4){
+//    console.log("to high ")
+
+// }
+// else if(num3< num4){
+//    console.log("To low")
+// }
+// else if (num3 == num4){
+//    console.log(" matched")
+// }
+// console.log(num3)
+// console.log(Math.round(5.756566))
+// console.log(Math.ceil(5.756566))
+// console.log(Math.floor(5.756566))
+// console.log(num1)
+// console.log(num1.toFixed(2))
+// console.log(num3)
