@@ -391,3 +391,17 @@
 // remain = remain.toLowerCase();
 // var com = first_name+ remain
 // console.log(first_name)
+// task one 
+// var innn = [1,2,3,4,5,6,7,8,9,1,1,4,6]
+// console.log(innn.length)
+
+// let text = "JavaScript Learning";
+// console.log(text.substring(4,10))
+// console.log(text.slice(-11))
+
+// let str = "Afzal is learning JS";
+// console.log(str.length);
+
+// let str = "Afzal loves JavaScript";
+// console.log(str.slice(6));      
+// console.log(str.substring(0,5));
