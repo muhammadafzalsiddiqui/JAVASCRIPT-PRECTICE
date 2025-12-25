@@ -479,4 +479,21 @@
 
 
 // OTP GRN formula
-console.log(Math.floor(Math.random()*(9999-1000+1))+1000)
+// console.log(Math.floor(Math.random()*(9999-1000+1))+1000)
+
+// var  num = "344"
+// var num2 = parseInt(num)
+// console.log(num)
+// // ignor decimal number
+// var num = "54567.6566"
+// var   num1 = parseInt(num)/
+// console.log(num1)
+// var num = "54567.6566"
+// var   num1 = parseFloat(num)
+// console.log(num1)
+// var num = 54567.6566
+// var   num1 = num.toString()
+// console.log(num1)
+// var num = "54567.6566"
+// var   num1 = Number(num)
+// console.log(num1)
