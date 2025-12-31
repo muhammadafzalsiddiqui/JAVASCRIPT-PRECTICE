@@ -497,3 +497,57 @@
 // var num = "54567.6566"
 // var   num1 = Number(num)
 // console.log(num1)
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var rightNow = new Date();
+// var righ = (rightNow.getDay())
+// var  da = dayNames[righ]
+// console.log(da)
+
+// var rightNow = new getDay();
+// console.log(rightNow )
+
+
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var now = new Date();
+// var theDay= now.getDay();
+// var nameOfToday = dayNames[theDay];
+// console.log(nameOfToday)
+
+
+// // get month
+// var mon = ["jun","feb", "march", "april","may", "june", "july", "august", "sep","oct", "nov","dec"]
+// var gm  = new Date();
+// var m =  gm.getMonth()
+// var mo = mon[m]
+// console.log(mo)
+// var date = new Date()
+// var doomsday = new Date("december,12, 1995");
+// var cd = date.getTime()
+// var doo = doomsday.getTime()
+// var dd =  cd-doo
+// var dDiff = Math.floor(dd / (1000 * 60 * 60 * 24));
+// var dfff = dDiff/30
+// var df = dfff/12
+// var fi  = (df)
+// console.log(fi)
+// console.log(date.toString)
+
+//  function tellTime() {
+//   var now = new Date();
+//  var theHr = now.getHours();
+//  var theMin = now.getMinutes();
+ 
+//  alert("Current time: "+ theHr + ":" + theMin); }
+//  console.log(tellTime())
+
+// function tabel (num){
+// for ( i=1 ;i<=10; i++){
+//    console.log(num +" X "+ i +" = "+ (num*i));
+
+// }
+// }
+// // tabel(8)
+// var ne = tabel(10)
+// console.log(ne)
+
+
