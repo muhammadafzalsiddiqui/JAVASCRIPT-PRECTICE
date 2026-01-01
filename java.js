@@ -549,5 +549,65 @@
 // // tabel(8)
 // var ne = tabel(10)
 // console.log(ne)
+//   arrow function
 
+//  var mul =(a, b)=>{
+//    console.log(a*b)
+// }
 
+// mul(5,7)
+//  function checkVowels(){
+//     var str = prompt("Enter Any Word")
+
+//     var vowel = "aeiouAEIOU"
+//     var count =  0 
+
+//    for (var i = 0 ; i < str.length;i++){
+//       if (vowel.includes(str[i])){
+//          count++;
+//          console.log("Vowel found:" + str[i])
+//       }
+
+//    }
+//     console.log("Total vowels: " + count);
+
+//  }
+//  checkVowels()
+// function checkVowels() {
+//   // user se input lena (browser me chalega)
+//   let str = prompt("Enter a word or sentence:");
+
+//   let vowels = "aeiouAEIOU";   // vowels list
+//   let count = 0;               // vowel counter
+
+//   // loop se har character check karna
+//   for (let i = 0; i < str.length; i++) {
+//     if (vowels.includes(str[i])) {
+//       count++;
+//       console.log("Vowel found: " + str[i]);
+//     }
+//   }
+
+// }
+// checkVowels()
+//   function  fun (lname ,fname){
+//    console.log(fname+lname)
+
+//   }
+//   fun(-3, 4)
+// switch case
+// let signal = prompt("Enter Signal color");
+// switch(signal){
+//    case"red":
+//    console.log("start");
+//    break
+//    case"yellow":
+//    console.log("slow");
+//    break
+//    case"green":
+//    console.log("go");
+//    break
+//    default:
+//       console.log("unknow color")
+// }
+// calculator sing switch case
