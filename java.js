@@ -611,3 +611,26 @@
 //       console.log("unknow color")
 // }
 // calculator sing switch case
+
+// var userInput=+prompt("Enter first number");
+// var opr = prompt("Enter Operator");
+// var userInputt= +prompt("Enter second number");
+// switch(opr){
+//    case ("+"):
+//    console.log(userInput + userInputt);
+//    break;
+//       case ("-"):
+//    console.log(userInput-userInputt);
+//    break;
+//       case ("*"):
+//    console.log(userInput*userInputt);
+//    break;
+//       case ("/"):
+//    console.log(userInput/userInputt);
+//    break;
+//       case ("%"):
+//    console.log(userInput%userInputt);
+//    break;
+//    default:
+//       console.log("wrong");
+// }
