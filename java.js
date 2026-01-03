@@ -634,3 +634,29 @@
 //    default:
 //       console.log("wrong");
 // }
+
+// console.log(a)
+// var a;
+// const a =2;
+// let a;
+
+// {
+// var x = 5;
+// let y = 10;
+// const z = 15;
+// console.log(y)
+// console.log(z)
+// }
+// console.log(x); // ✅ 5
+// console.log(y); // ❌ ReferenceError
+// console.log(z); // ❌ ReferenceError
+//  const a = 5;
+//   a = 15;
+//   console.log(a);
+
+
+  // const arr = [1, 2, 3];
+
+// arr.push(4 );      // ✅ Works, arr is now [1, 2, 3, 4]
+// arr.pop();        // ✅ Works, arr is now [1, 2, 3]
+// console.log(arr)
