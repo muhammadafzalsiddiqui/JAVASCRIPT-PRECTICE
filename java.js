@@ -798,3 +798,11 @@
 //     break
 
 //   } 
+// 🔄 Practice Questions on Loops
+// 1. Multiplication Table
+// 👉 Ek loop likho jo 2 ka table print kare (2 × 1 se 2 × 10 tak).
+// Hint (Roman Urdu):
+// Outer loop ki zarurat nahi, sirf ek loop jo i ko 1 se 10 tak chalaye aur 2 * i print kare.
+//  for ( let i = 0; i<11; i++){
+//   console.log(`5 x ${i} = ${i*5}`)
+//  }
