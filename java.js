@@ -660,3 +660,141 @@
 // arr.push(4 );      // ✅ Works, arr is now [1, 2, 3, 4]
 // arr.pop();        // ✅ Works, arr is now [1, 2, 3]
 // console.log(arr)
+
+// console.log(typeof []);
+// console.log(typeof null);
+// console.log(typeof 123n);
+
+// console.log(typeof ())
+
+
+
+//  
+// function getGrade(value){
+
+// if (value >= 80){
+// console.log("A1")
+// }
+// else if (value>=70){
+//   console.log("A")
+// }
+// else if (value>=60){
+//   console.log("B")
+
+// }
+// else if (value>=50){
+//   console.log("C")
+
+// }
+// else(fail)
+  
+
+
+  
+// }
+// console.log(getGrade(78))
+
+
+// for( i = 0; i<=6; i++){
+// console.log("*")
+// }
+// let i=1;
+// while(i<=32){
+//   console.log(i)
+//   i++;
+
+// }
+// let i =34
+// do{
+// console.log(i)
+// i++
+// }
+// while(i<2)
+
+// Practice Zone loop
+// . Print 1 to 10 using for
+// for ( var i = 0; i<=10; i++)
+// {
+//   console.log(i)
+// }
+
+//  for ( var i = 0 ; i <=20; i ++){
+//   if (i %2 == 0 ){
+//     console.log( "=>" + i)
+//   }
+//  }
+
+//  for( let i = 10; i>=1; i --){
+//   console.log(i)
+//  }
+
+//  for ( var i = 20 ; i >=0; i--){
+//   if (i %2 == 1 ){
+//     console.log( "=>" + i)
+//   }
+//  }
+
+// let i = 10;
+// while(i>0){
+//   console.log(i)
+//   i--
+
+// }
+// let i =1;
+// while(i<=15){
+//   if (i%2 ===1){
+//     console.log("add number==>"+i)
+
+//   }
+//   i++
+
+// }
+
+// for ( let i = 10; i>0; i--){
+//   console.log("5 "  +" x " + i + " = " + i*5)
+// }
+//  fin the sum of numbers from 1- 100 using a loop 
+// let sum = 0 
+// for ( let i = 0; i<101; i++){
+// sum +=i 
+// // console.log(sum)
+// }
+// console.log(sum)
+// print all number between 1 to 50 that are divisible by 3
+//  for ( let i = 0 ; i<=51; i++){
+//   if (i% 3 === 0){
+//     console.log(i)}
+//  }
+
+//    let val = prompt("enter any number")
+//    for ( i = 0  ;i<=val; i++){
+//      if (i%2===0){
+//       console.log(`even number==> ${i}`)
+//      }
+//      else if (i%3 ===1){
+//      console.log(`odd number==> ${i}`)
+
+//      }
+//    }
+// count how many number b/w 1 to 100 are divisible by bot3 and 5 h 
+//  for ( var i = 0 ; i<=100; i++){
+//   if ( i%3 ===0 && i%5===0)
+//     console.log(i)
+//  }
+
+// print the triangle 
+// for(let i = 0; i<=7; i++){
+//   if ()
+//   console.log(i)
+// }
+// count =0;
+// for (let i = 0; i<101;i++){
+//   if (i%2===1){
+//     count++;
+//     console.log(i)
+      
+//   }
+//   if (count===5)
+//     break
+
+//   }
