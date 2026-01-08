@@ -891,3 +891,60 @@
 //   console.log(v1+v2)
 // }
 // add()
+
+// default vau
+
+// function add( v1=0,v2=0){
+//   console.log(v1+v2)
+// }
+// add()
+// function add (a,b,c,...d){
+// console.log(a+b+c,d)
+// console.log(a+b+c+d)
+// }
+// add(1,2,3,4,5,6,7,8,9)
+
+
+// function val (t){
+//   return(12+t)
+// }
+// let va=val(6)
+// console.log(va) 
+
+// var fun = function fuu(advaance){ 
+// advaance()
+
+// }
+// fun(function advaance(){
+//   console.log("first class function")
+// })
+
+
+// Hof
+//  function one(){
+//   return(function two(){
+//     console.log("Hog")
+//   })
+//  }
+//  one()()
+// pure vs impure funtion
+
+// a = 12;
+// function beta (){
+// console.log(++a)
+// }
+// beta()
+// closure 
+// function sqr (){
+//   let a=3;
+//   return(function line(){
+//     console.log(a)
+//   })
+// }
+// sqr ()()
+
+// BMI Calculator
+function bmi(weight,height){
+  return weight / (height*height);
+}
+console.log(bmi(78,1.615).toFixed(2))
