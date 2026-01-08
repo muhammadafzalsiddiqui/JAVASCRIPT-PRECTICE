@@ -687,6 +687,9 @@
 
 // }
 // else(fail)
+
+
+
   
 
 
@@ -806,3 +809,85 @@
 //  for ( let i = 0; i<11; i++){
 //   console.log(`5 x ${i} = ${i*5}`)
 //  }
+
+
+// 2. Sum of Numbers
+// 👉 Ek loop likho jo 1 se 100 tak numbers ka sum calculate kare.
+// Hint:
+// Ek variable sum = 0 rakho, phir loop mein har number ko add karte jao.
+// var value = 0;
+// for (let i = 1; i<=101;i++){
+//     value= value+i
+//     // console.log(value)
+  
+// }
+// console.log(value)
+
+// ❓ Q3: Reverse Counting
+// 👉 Ek loop likho jo 10 se 1 tak numbers print kare
+
+//  for ( let i = 10; i>0;i--){
+//   console.log(i)
+//  }
+
+
+//  ❓ Q4: Even Numbers Only
+// 👉 Ek loop likho jo sirf even numbers 2 se 20 tak print kare.
+  // for(let i = 1; i<=20; i++){
+  //   if(i%2===0){
+  //     console.log(i)
+  //   }
+  // }
+
+
+  // ❓ Q5: Star Triangle
+// 👉 Ek loop likho jo niche wala pattern print kare
+//  for (let i =1;i<8;i++){
+//   let add= " "
+// for (let j =1;j<=i;j++){
+//   add +="*";
+
+// }
+//   console.log(add);
+// }
+
+//   for (let i =1;i<=5;i++){
+//   let add= "";
+// for (let j =1;j<=5-i;j++){
+//   add +=" ";
+// }
+// for (let k =1;k<=i;k++){
+//   add +="* ";
+// }
+  
+
+//   console.log(add);
+// }
+//  for(let i = 1; i <= 5; i++) {        // Outer loop → rows
+//   let add = "";
+
+//   // Spaces print karna (row ke start mein)
+//   for (let j = 1; j <= 5 - i; j++) {
+//     add += " ";
+//   }
+
+//   // Stars print karna (row ke andar)
+//   for (let k = 1; k <= i; k++) {
+//     add += "* ";
+//   }
+
+//   console.log(add);
+// }
+
+// var fec =5 ;
+// var input = 1;
+// for(let i = 1;i<=5;i++){
+//   input= input*i;
+//   console.log(input)
+// }
+
+
+// function add(v1,v2){
+//   console.log(v1+v2)
+// }
+// add()
