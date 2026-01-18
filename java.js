@@ -944,7 +944,88 @@
 // sqr ()()
 
 // BMI Calculator
-function bmi(weight,height){
-  return weight / (height*height);
+// function bmi(weight,height){
+//   return weight / (height*height);
+// }
+// console.log(bmi(78,1.615).toFixed(2))
+
+
+// object
+
+// let obj = {
+//   name : "afzal",
+//   age : 31,
+//   class: "bscs",
+
+// }
+
+// let obj={
+//   name:"afzal",
+//   age:23,
+//   year:2023,
+// }
+// for(let nnew in obj){
+//   // console.log(nnew)
+//   console.log(nnew,obj[nnew])
+// }
+  
+
+// let nnn = document.getElementById("new");
+// console.dir(nnn)
+//  let h1 = document.querySelector("h1");
+// //  h1.innerHTML="hyygy"
+//  h1.innerText="hyygy"
+//  h1.hidden= true;
+// let Nnew = document.getElementById("New")
+// console.dir(Nnew)
+//  let NNE=document.getElementsByClassName("new")
+//  console.dir(NNE)
+//  let kk=document.querySelectorAll("h1")
+//   console.dir(kk)
+
+
+// let h1 = document.querySelector("h1")
+// h1.innerHTML="<i>juhh</>"
+// let h1 = document.querySelector("h1")
+// h1.innerText="<i>juhh</>"
+
+// let a=document.querySelector("a")
+// // a.innerText="Download";
+// console.log(a.removeAttribute("href"))
+// let img=document.querySelector("img")
+// img.setAttribute("src","https://pakistan.mfa.gov.ua/storage/app/thumbnails/a65/b18/fc0/61164023a93c1730224349_730x410.png")
+  // let h2=document.createElement("h2");
+  // h2.innerText="afzal";
+  // document.querySelector("body").append(h2);
+//   let one=document.querySelector("#one");
+// one.innerText="Well come to SMIT";
+//  let lis=document.querySelectorAll("li");
+// //  console.log(lis.textContent="li")
+// for(let i = 0; i<lis.length; i++){
+//   console.log(lis[i].textContent)
+// }
+//  let dic=document.querySelector("div")
+//  dic.setAttribute("title","afzal")
+// let h5=document.createElement("h5")
+// h5.textContent="pakistan";
+// document.querySelector("body").append(h5)
+
+// let ul=document.querySelector("ul")
+// let li=document.createElement("li")
+// li.innerText="update"
+// ul.appendChild(li)
+// li.style.color="red"
+// let img=document.createElement("img")
+// img.setAttribute("src","https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png")
+// img.classList.add("new")
+// document.querySelector("div").prepend(img)
+
+// let ul=document.querySelector("ul")
+// let li=document.querySelector("li")
+// ul.removeChild(li)
+let p=document.querySelector("button");
+
+p.addEventListener("dblclick", function(){
+  p.style.color="red";
+  p.style.backgroundColor="yellow"
 }
-console.log(bmi(78,1.615).toFixed(2))
