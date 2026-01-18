@@ -1023,9 +1023,28 @@
 // let ul=document.querySelector("ul")
 // let li=document.querySelector("li")
 // ul.removeChild(li)
-let p=document.querySelector("button");
+// let p=document.querySelector("button");
 
-p.addEventListener("dblclick", function(){
-  p.style.color="red";
-  p.style.backgroundColor="yellow"
-}
+// p.addEventListener("dblclick", function(){
+//   p.style.color="red";
+//   p.style.backgroundColor="yellow"
+// }
+
+const btn= document.querySelector("#myBtn")
+const click = document.querySelector("#output")
+var count=0;
+btn.addEventListener("click",function(){
+  count++;
+  
+click.innerText = "Clicked " + count + " times";
+
+})
+
+    // const btn = document.querySelector("#myBtn");   // ✅ Correct case
+    // const click = document.querySelector("#output");
+    // let count = 0;
+
+    // btn.addEventListener("click", function() {
+    //   count++;
+    //   click.textContent = "Clicked " + count + " times"; // ✅ Update output
+    // });
