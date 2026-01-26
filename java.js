@@ -1024,21 +1024,25 @@
 // let li=document.querySelector("li")
 // ul.removeChild(li)
 // let p=document.querySelector("button");
-
+// const p=document.querySelector("p")
 // p.addEventListener("dblclick", function(){
 //   p.style.color="red";
 //   p.style.backgroundColor="yellow"
-// }
+// })
 
-const btn= document.querySelector("#myBtn")
-const click = document.querySelector("#output")
-var count=0;
-btn.addEventListener("click",function(){
-  count++;
+// const btn= document.querySelector("#myBtn")
+// const click = document.querySelector("#output")
+// var count=0;
+// btn.addEventListener("click",function(){
+//   count++;
   
-click.innerText = "Clicked " + count + " times";
+// click.innerText = "Clicked " + count + " times";
 
-})
+// })
+// btn.addEventListener("click",function(){
+//   btn.style.color="red";
+//   btn.style.backgroundColor="green";
+// })
 
     // const btn = document.querySelector("#myBtn");   // ✅ Correct case
     // const click = document.querySelector("#output");
@@ -1048,3 +1052,89 @@ click.innerText = "Clicked " + count + " times";
     //   count++;
     //   click.textContent = "Clicked " + count + " times"; // ✅ Update output
     // });
+
+    //    const input = document.querySelector("#myInput");
+    // const output = document.querySelector("#output");
+ 
+    
+
+    // // Keydown event
+    // input.addEventListener("keydown", function(event) {
+    //   output.textContent = "Key pressed: " + event.key;
+    // });
+// 
+//    par.addEventListener("dblclick",function(){
+// par.style.backgrundColor="red";
+//     })
+
+
+// let inp =document.querySelector("input")
+// let p =document.querySelector("p")
+
+// inp.addEventListener("input",function(da) {
+//   if(da.data !== null){
+//     // p.textContent="data =: " + da.data.toUpperCase();
+//     p.textContent = "data =: " + inp.value.toUpperCase();
+//     p.style.textDecoration="underline"
+    
+//   }
+  
+  
+// })
+
+
+
+// let dat = document.querySelector("#myInput")
+// let p = document.querySelector("#output")
+
+
+// dat.addEventListener("input",function(){
+//   if(dat.value.length>20){
+//     p.textContent= "⚠️ Limit exceeded! Only 20 characters allowed."
+//     p.style.color="red";
+  
+//   }
+//   else{
+//     p.textContent="value"+dat.value.length;
+//     p.style.color="black";
+//   }
+// })
+
+// dat.addEventListener("input",function(){
+//   let word = dat.value.trim().split(/\s+/);
+//   let co = word.length;
+//   d.textContent= "word cunt" + co;
+
+
+// });
+ 
+// dat.addEventListener("input",function(){
+// let reversed = dat.value.split("").reverse().join("");
+// d.textContent = reversed;
+
+// })
+//  let sele=document.querySelector("select")
+//  let hhh = document.querySelector("#hhh")
+
+//  sele.addEventListener("change",function(dete){
+//   hhh.textContent=`${dete.target.value} phone selected`
+  
+//   hhh.style.color="green"
+  // console.log(dete.target.value)
+//  })\
+
+
+// keydown event
+//  let h1=document.querySelector("h1")
+//  window.addEventListener("keydown",function(det){
+
+//   if(det.key===" "){
+//     h1.textContent="Space"
+//   }
+//   else{
+//       h1.textContent=det.key
+//   }
+  // h1.textContent=det.key
+  // console.log(det.key)
+
+//  })
