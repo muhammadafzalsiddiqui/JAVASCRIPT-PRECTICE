@@ -1138,3 +1138,340 @@
   // console.log(det.key)
 
 //  })
+
+// click event
+// first program
+//  let para =document.querySelector("p")
+//    para.addEventListener("click", function(){
+//     para.textContent="pakistan zinadaabad"
+//     para.style.backgroundColor="red"
+//     para.style.color="green"
+//    })
+//  let btn = document.querySelector("#btn")
+//   btn.addEventListener("click", function(){
+//     if (document.body.style.backgroundColor==="black"){
+//       document.body.style.backgroundColor="white";
+//       document.body.style.color= "black"
+//        btn.textContent= "dark mode on kro"
+//       btn.style.backgroundColor="black"
+//     }
+//     else{
+//       document.body.style.backgroundColor="black";
+//       document.body.style.color= "white";
+//       btn.textContent= "light mode on kro"
+//       btn.style.backgroundColor="white"
+
+//     }
+//   })
+// const modeBtn = document.querySelector('#modeBtn');
+
+// modeBtn.addEventListener('click', function() {
+//   // Body ka background color check karo aur badlo
+//   if (document.body.style.backgroundColor === 'black') {
+//     document.body.style.backgroundColor = 'white';
+//     document.body.style.color = "";
+//     modeBtn.style.backgroundColor="black";
+//     modeBtn.style.color="white";
+//     modeBtn.textContent = "Dark Mode On Karein";
+//   } else {
+//     document.body.style.backgroundColor = 'black';
+//     document.body.style.color = 'white';
+//       modeBtn.style.backgroundColor="white";
+//     modeBtn.style.color="black";
+//     modeBtn.textContent = "Light Mode On Karein";
+//   }
+// });
+
+
+// counter app
+// let count=0;
+// const modeBtn = document.querySelector('#modeBtn');
+// const modeBtnn = document.querySelector('#modeBtnn');
+// const modeBtnnn = document.querySelector('#modeBtnnn');
+// const p = document.querySelector("p");
+// modeBtn.addEventListener("click",function(da){
+//   count=count+1;
+//   p.textContent= count;
+//   colorupdate ()
+  
+ 
+// })
+// modeBtnn.addEventListener("click",function(){
+//  count=count-1;
+//   p.textContent=count;
+//   colorupdate ()
+// })
+// modeBtnnn.addEventListener("click",function(){
+//  count=0;
+//   p.textContent = count;
+//   colorupdate ()
+// })
+
+// let count=0;
+// const modeBtn = document.querySelector('#modeBtn');
+// const modeBtnn = document.querySelector('#modeBtnn');
+// const modeBtnnn = document.querySelector('#modeBtnnn');
+// const p = document.querySelector("p");
+// modeBtn.addEventListener("click",function(da){
+//   count++
+//   p.textContent= count;
+//   colorupdate ()
+  
+ 
+// })
+// modeBtnn.addEventListener("click",function(){
+//  count--
+//   p.textContent=count;
+//   colorupdate ()
+// })
+// modeBtnnn.addEventListener("click",function(){
+//  count=0;
+//   p.textContent = count;
+//   colorupdate ()
+// })
+// function colorupdate (){
+//   if(count > 0){
+//     p.style.color="red";
+//   }
+//    else if(count < 0){
+//     p.style.color="green";
+//   }
+//   else{
+//     p.style.color="black";
+//   }
+// }
+
+// let count=0
+// let input=document.querySelector("#msgInput")
+// let charCount=document.querySelector("#charCount")
+// let warning=document.querySelector("#warning")
+
+// input.addEventListener("input",function(da){
+
+//   let length =da.target.value.length
+// charCount.textContent = length;
+//  if (length >= 20) {
+//     warning.style.display = "block";
+//     charCount.style.color = "red";
+//   } else {
+//     warning.style.display = "none";
+//      charCount.style.color = "black";
+//   }
+  
+// })  
+
+
+// if(input===green){
+//   input.style.backgroundcolor="green"
+// }
+// else if(input===red){
+//     input.style.backgroundcolor="red"
+// }
+
+
+// let pass =document.querySelector("#pass")
+// let sub = document.querySelector("sub")
+// let warning = document.querySelector("p")
+// pass.addEventListener("input",function(pa){
+//   let length=pa.target.value.length;
+// if(length>12){
+//   warning.textContent="8 c zaida  ni"
+//   pass.style.backgroundColor="red"
+//   // warning.style.color="red"
+// }
+
+// })
+
+// let picker = document.querySelector("#colorPicker");
+// let statusText = document.querySelector("#status");
+
+// picker.addEventListener("change", function(e) {
+//   // Yeh code tabhi chalega jab aap koi option select kar lenge
+//   let selectedColor = e.target.value;
+  
+//   document.body.style.backgroundColor = selectedColor;
+//   statusText.textContent = "Aapne " + selectedColor + " chuna hai!";
+// });
+
+
+
+
+    
+        // // 1. Selection: "them" naam ka variable banaya
+        // let them = document.querySelector("#mySelection");
+
+        // // 2. Event: Jab user selection tabdeel (change) kare
+        // them.addEventListener("change", function(e) {
+            
+        //     // 3. Value: Pata kiya ke user ne kya chuna
+        //     let chan = e.target.value;
+
+        //     // 4. Action: Logic ka istemal
+        //     if (chan === "red") {
+        //         document.body.style.backgroundColor = "red";
+        //         document.body.style.color = "white";
+        //     } 
+        //     else if (chan === "yellow") {
+        //         document.body.style.backgroundColor = "yellow";
+        //         document.body.style.color = "black";
+        //     }
+        //     else if (chan === "lightblue") {
+        //         document.body.style.backgroundColor = "lightblue";
+        //         document.body.style.color = "black";
+        //     }
+        //     else {
+        //         document.body.style.backgroundColor = "white";
+        //         document.body.style.color = "black";
+        //     }
+        // }
+// let them = document.querySelector("#mySelection");
+// let pra = document.querySelector("p")
+//         // 2. Event: Jab user selection tabdeel (change) kare
+//         them.addEventListener("change", function(e) {
+//             // 3. Value: Pata kiya ke user ne kya chuna
+//             let chan = e.target.value;
+//           if (chan==="large"){
+//              pra.style.fontSize="500px"
+//              pra.textContent="size chota";
+//           }
+//           else if(chan==="small"){
+//              pra.style.fontSize="100px"
+//               pra.textContent="size br hogya";
+//           }
+//           })
+
+    //       if (chan === "large") {
+    //     pra.style.fontSize = "50px"; 
+    //     pra.textContent = "Size ab Bara (50px) ho gaya hai!"; // Seedha message likhein
+    // } 
+    // else if (chan === "small") {
+    //     pra.style.fontSize = "10px";
+    //     pra.textContent = "Size ab Chota (10px) ho gaya hai!";
+    // }
+
+// let form=document.querySelector("form")
+//     form.addEventListener("submit", function(e) {
+//     e.preventDefault(); // "Ruko! Page refresh mat karo, pehle meri baat suno."
+    
+//     // Ab yahan aap apni marzi ka kaam kar sakte hain
+//     console.log("Data save ho gaya!");
+// });
+// let btn=document.querySelector("#btn")
+// let filein=document.querySelector("#filein")
+//  btn.addEventListener("click", function(){
+//   filein.click();
+//  })
+// filein.addEventListener("change", function(det){
+// console.log(det.target.files[0].name);
+// btn.textContent=det.target.files[0].name;
+// btn.style.fontSize="20px";
+// })
+
+
+// card
+// let form=document.querySelector("form")
+// let main=document.querySelector(".main")
+// let inputs = document.querySelectorAll("input")
+// form.addEventListener("submit", function(det){
+//   det.preventDefault();
+//   let cardss = document.createElement("div");
+//   cardss.classList.add("cardss");
+
+//    let card=document.createElement("div")
+//    card.classList.add("card")
+//    cardss.appendChild(card)
+  
+//    let img=document.createElement("img");
+//   img.setAttribute("src", inputs[0].value);
+//    card.appendChild(img)
+  
+//  let h2= document.createElement("h2")
+//  h2.textContent=inputs[1].value;
+
+//   let h3=document.createElement("h3")
+//   h3.textContent=inputs[2].value;
+
+//   let p=document.createElement("p")
+//   p.textContent=inputs[3].value;
+
+//   card.appendChild(h2)
+//   card.appendChild(h3)
+//   card.appendChild(p)
+// main.appendChild(cardss);
+
+// })
+
+
+
+// form.addEventListener("submit", function(det){
+//     det.preventDefault();
+
+//     let cardss = document.createElement("div");
+//     cardss.classList.add("cardss");
+
+//     // Static text ki jagah inputs ki value use karein
+//     let img = document.createElement("img");
+//     img.setAttribute("src", inputs[1].value || "default-image.jpg"); // Image input se link lo
+
+//     let h2 = document.createElement("h2");
+//     h2.textContent = inputs[0].value; // Name input
+
+//     let h3 = document.createElement("h3");
+//     h3.textContent = inputs[2].value; // Roll no ya details
+
+//     // Append orders
+//     cardss.appendChild(img);
+//     cardss.appendChild(h2);
+//     cardss.appendChild(h3);
+    
+//     main.appendChild(cardss);
+
+//     // Form clear kar do
+    // form.reset()/;
+// });
+
+
+// let box=document.querySelector(".box");
+// addEventListener("mouseover", function(){
+//   box.style.backgroundColor="yellow";
+// })
+// addEventListener("mouseout", function(){
+//   box.style.backgroundColor="red";
+// })
+
+let nameInput=document.querySelector("#nameInput");
+let rollinput=document.querySelector("#rollInput");
+let detailsInput=document.querySelector("#detailsInput");
+
+let previewName=document.querySelector("#previewName");
+let previewRoll=document.querySelector("#previewRoll");
+let previewDetails=document.querySelector("#previewDetails");
+
+nameInput.addEventListener("keydown",function(){
+  previewName.textContent=nameInput.value;
+ if(previewName.value===""){
+previewName.textContent="YourName";
+  }
+})
+
+rollinput.addEventListener("keydown",function(event){
+  previewRoll.textContent=`Roll Numbe: ${rollinput.value}`;
+
+  if (isNaN(event.key) && event.key !== "Backspace" && event.key !== "Tab") {
+        event.preventDefault(); // Wo key type hi nahi hogi
+    }
+  if(previewRoll.value===""){
+previewRoll.textContent="YourRoll number";
+  }
+})
+
+
+
+detailsInput.addEventListener("keydown",function(){
+// console.log(det)
+  previewDetails.textContent=nameInput.value;
+  if(previewDetails==" "){
+previewDetails=YourName.value
+  }
+
+})

@@ -7,38 +7,180 @@
 </head>
 <style>
 
-
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-html,body{
+     box-sizing: border-box; /* Width ko barabar rakhta hai */
 
-    width: 100%;
-    height: 100%;
+/* .main input{
+       width: 100%;
+       padding: 10px;
+       margin: 10px 0;
+       border-radius: 6px;
+       border: none;
+       outline: none;
+    
+
+}
+ #button {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-#main{
+#button:hover {
+    background-color: #0056b3;
+}  */
+
+
+
+/* .cardss{
+    border-radius: 10px;
+    text-align: center;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;        
+    justify-content: center; 
+     gap: 20/px;           
+     width: 100%; 
+     max-width: 1200px; 
+
+ }  */
+
+/* .card{
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card img{
+    background-color: #007bff;
+    border-radius: 50%;
+    object-fit: cover;
+    border:10px solid red; */
+    /* padding: 10px; */
+    /* width: 150px;      /* Image ka size chota karein */
+    /* height: 150px;     Height bhi barabar rakhein */
+    /* border: 8px solid red; Jo moti red line aapko dikh rahi hai */
+    /* margin-top: 10px; */
+    /* position: relative; */
+/* } */
+/* .cardss:hover { */
+    /* transform: translateY(-5px); Hover effect */
+/* } */ 
+/* 
+.cardss h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 5px 0;
+}
+.cardss h3 {
+    font-size: 15px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.cardss p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+} */
+ /* .box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+ } */
+}
+ body{
+     font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: #4546;
-    font-size: 30rem;
-}
-h1{
-    font-size: 3rem;
-}
-    /* .new{
-        width: 100px;
-    } */
+    align-items:center; 
+     min-height: 100vh;  
+    padding: 20px;
+} 
+.main{
+    background-color: #454647;
+    padding: 25px; 
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    width: 300px; 
+     margin-bottom: 40px; 
+ } 
+
+
 </style>
 <body>
+<div class="main">
+    <form id="userForm">
+        <input type="text" id="nameInput" placeholder="User-Name">
+        <input type="text" id="rollInput" placeholder="Roll number">
+        <input type="text" id="detailsInput" placeholder="Details">
+    </form>
+</div>
 
-    <h1 id="main">a</h1>
+<div id="liveCard" class="cardss">
+    <!-- <img src="https://via.placeholder.com/150" alt="profile"> -->
+    <h2 id="previewName">Your Name</h2>
+    <h3 id="previewRoll">Roll No: 000</h3>
+    <p id="previewDetails">Details will appear here...</p>
+</div>
+
+
+<!-- <div class="box"></div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- card -->
+
+<!-- <div class="main">
+    <form id="userForm">
+           <input type="text" id="userPic"  placeholder="picture"> 
+        <input type="text" id="userName" placeholder="User-Name" required>
+        
+     
+        
+        <input type="text" id="rollNo" placeholder="Roll number" required>
+        <input type="text" id="details" placeholder="Details" required>
+        
+        <input type="submit" value="Submit Card" id="button">
+    </form>
+</div> -->
+
+<!-- <div id="main"></div>  -->
+
+
+
+
+    <!-- <div class="cardss">
+    <div class="card">
+        <img id="profileImg" src="" alt="Profile">
+        <h2 id="userName">Gemini User</h2>
+        <h3 id="roll number">Roll number</h3>
+        <p>Frontend Developer & Logic Learner</p>
+        
+    </div>
+</div> -->
+
+
+
+
+
+   
     <!-- <h1 id="hhh">Select your product</h1>
 <select >
     <option selected disabled>choose you item</option>
@@ -48,30 +190,9 @@ h1{
     <option value="nokia">nokia</option>
 </select> -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- <button id="myBtn">Click Me!</button>
   <p id="output">Clicked 0 times</p> -->
 
- 
 <!-- 
     <input type="text" id="myInput" placeholder="Type something...">
     <P>ENTER</P> -->
