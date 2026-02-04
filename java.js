@@ -1438,40 +1438,45 @@
 // addEventListener("mouseout", function(){
 //   box.style.backgroundColor="red";
 // })
+//  let input= document.querySelectorAll("#main input")
+//  let preview= document.querySelectorAll("#preview-item")
+// input.forEach((input, index) => {
+//   input.addEventListener("keyup",function(){
+//     if (index===0){
+//     preview[0].textContent=input;
+//     }
+    
 
-let nameInput=document.querySelector("#nameInput");
-let rollinput=document.querySelector("#rollInput");
-let detailsInput=document.querySelector("#detailsInput");
+  
+  
+//  });
 
-let previewName=document.querySelector("#previewName");
-let previewRoll=document.querySelector("#previewRoll");
-let previewDetails=document.querySelector("#previewDetails");
+ // 1. document. lagana lazmi hai
+// let inputs = document.querySelectorAll("#main input");
+// 
 
-nameInput.addEventListener("keydown",function(){
-  previewName.textContent=nameInput.value;
- if(previewName.value===""){
-previewName.textContent="YourName";
-  }
-})
 
-rollinput.addEventListener("keydown",function(event){
-  previewRoll.textContent=`Roll Numbe: ${rollinput.value}`;
+// let ul = document.querySelector("ul")
+//  ul.addEventListener("click", function(det){
+// // det.target.style.textDecoration="line-through"
+// det.target.classList.toggle("cli")
 
-  if (isNaN(event.key) && event.key !== "Backspace" && event.key !== "Tab") {
-        event.preventDefault(); // Wo key type hi nahi hogi
+//  })
+let inp = document.querySelector("input");
+let span = document.querySelector("span")
+inp.addEventListener("input", function(det){
+    // console.log("counter ho rha he ")
+    // console.log(inp.value.length)
+    // span.textContent= 20 - inp.value.length;
+
+
+    let left = span.textContent= 20- inp.value.length
+    span.textContent=left
+    if (left < 0){
+        span.style.color="red";
+        inp.style.backgroundColor='yellow'
     }
-  if(previewRoll.value===""){
-previewRoll.textContent="YourRoll number";
-  }
-})
-
-
-
-detailsInput.addEventListener("keydown",function(){
-// console.log(det)
-  previewDetails.textContent=nameInput.value;
-  if(previewDetails==" "){
-previewDetails=YourName.value
-  }
-
+    else{
+        span.style.color="white";
+    }
 })
