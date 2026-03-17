@@ -1462,29 +1462,64 @@
 // det.target.classList.toggle("cli")
 
 //  })
-let inp = document.querySelector("input");
-let span = document.querySelector("span")
-inp.addEventListener("input", function(det){
-    // console.log("counter ho rha he ")
-    // console.log(inp.value.length)
-    // span.textContent= 20 - inp.value.length;
+// let inp = document.querySelector("input");
+// let span = document.querySelector("span")
+// inp.addEventListener("input", function(det){
+//     // console.log("counter ho rha he ")
+//     // console.log(inp.value.length)
+//     // span.textContent= 20 - inp.value.length;
 
 
-    let left = span.textContent= 20- inp.value.length
-    span.textContent=left
-    if (left < 0){
-        span.style.color="red";
-        inp.style.backgroundColor='yellow'
-    }
-    else{
-        span.style.color="white";
-    }
-})
+//     let left = span.textContent= 20- inp.value.length
+//     span.textContent=left
+//     if (left < 0){
+//         span.style.color="red";
+//         inp.style.backgroundColor='yellow'
+//     }
+//     else{
+//         span.style.color="white";
+//     }
+// })
 
 
 // scope prectice
 //  var is globl
-let a = 2;
-{
-  console.log(a)
+// let a = 2;
+// {
+//   console.log(a)
+// }
+
+
+// {
+//   let a = 2;
+// }
+// console.log(a)
+
+// let a = 2;
+// let b = "3";
+// let c = a + b; 
+
+// console.log(c);
+
+// let x = 10;
+// x += 5;
+// console.log(x)
+
+
+// let totalApples = 17;
+// let people = 5;
+
+// // Quotient nikalne ke liye (Integer division)
+// let quotient = Math.floor(totalApples / people); 
+// console.log(quotient); // Output: 3
+
+// // Remainder nikalne ke liye (Modulus operator)
+// let remainder = totalApples % people;
+// console.log(remainder); // Output: 2
+let num1 = prompt("enter any number ");
+if (num1 % 2 ===0){
+  console.log("even")
 }
+else(
+  console.log("odd")
+)
