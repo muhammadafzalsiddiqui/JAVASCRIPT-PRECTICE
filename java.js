@@ -1516,10 +1516,52 @@
 // // Remainder nikalne ke liye (Modulus operator)
 // let remainder = totalApples % people;
 // console.log(remainder); // Output: 2
-let num1 = prompt("enter any number ");
-if (num1 % 2 ===0){
-  console.log("even")
-}
-else(
-  console.log("odd")
-)
+// let num1 = prompt("enter any number ");
+// if (num1 % 2 ===0){
+//   console.log("even")
+// }
+// else(
+//   console.log("odd")
+// )
+
+// let images = ["2", "img2.jpg", "img3.jpg"]; // Length = 3
+// let current = 0;
+
+// function nextImage() {
+//     // Ye line hamesha 0, 1, ya 2 hi degi
+//     current = (current + 1) % images.length; 
+//     console.log("Showing:", images[current]);
+// }
+// // nextImage()
+//   console.log("Showing:", images[current]);
+// console.log(nextImage)
+
+// Pehli baar click: (0+1) % 3 = 1
+// Doosri baar: (1+1) % 3 = 2
+// Teesri baar: (2+1) % 3 = 0 (Back to start!)
+
+// // 1. Hamari colors ki list (Array)
+// let colors = ["Red", "Green", "Blue", "Yellow"]; 
+// let currentIndex = 0; // Shuruat 0 index se hogi
+
+// function changeColor() {
+//     // 2. Circular Logic ka Formula
+//     // (Purana Index + 1) modulo (Total Colors)
+//     currentIndex = (currentIndex + 1) % colors.length;
+
+//     let selectedColor = colors[currentIndex];
+    
+//     console.log("Current Index: " + currentIndex);
+//     console.log("Selected Color: " + selectedColor);
+    
+//     // Background color change karne ke liye (Browser mein)
+//     // document.body.style.backgroundColor = selectedColor;
+// }
+
+// // Check karne ke liye 6 baar function chalate hain
+// console.log("Starting with: " + colors[0]);
+// changeColor(); // Output: Green (Index 1)
+// changeColor(); // Output: Blue (Index 2)
+// changeColor(); // Output: Yellow (Index 3)
+// changeColor(); // Output: Red (Index 0) - Yahan Reset hua!
+// changeColor(); // Output: Green (Index 1)
