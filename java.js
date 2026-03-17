@@ -1480,3 +1480,11 @@ inp.addEventListener("input", function(det){
         span.style.color="white";
     }
 })
+
+
+// scope prectice
+//  var is globl
+let a = 2;
+{
+  console.log(a)
+}
