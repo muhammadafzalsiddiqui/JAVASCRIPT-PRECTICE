@@ -1624,3 +1624,4 @@ function fu(){
 }
 console.log(a)
 fu()
+  
