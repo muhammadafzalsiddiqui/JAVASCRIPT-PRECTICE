@@ -1565,3 +1565,43 @@
 // changeColor(); // Output: Yellow (Index 3)
 // changeColor(); // Output: Red (Index 0) - Yahan Reset hua!
 // changeColor(); // Output: Green (Index 1)
+// for(let i = 1; i<10; i++){
+//   console.log("count",i);
+// }
+// for (let i = 1; i <= 3; i++) {
+//     console.log("Count:", i);
+// }
+//  const car ={
+//   namee :"corola",
+//   age : 34,
+//   class:"six",
+//  }
+//  for (const key in car) {
+//   con
+//   console.log(key: car[key]);
+
+//  }
+// console.log(car)
+// const car = {
+//     make: "Toyota",
+//     model: "Corolla",
+//     year: 2020
+// };
+
+// for (let key in car) {
+//     console.log(`${key}: ${car[key]}`);
+// }
+
+// const numbers = [10, 20, 30];
+// // console.log(numbers)
+// // numbers.forEach(function(num) {
+// //   console.log(num);
+// // });
+//  numbers.forEach((num)=>{
+//   console.log(num, indexx, numbers)
+//  })
+let students = ["Hussain", "Ali", "Sara"];
+
+students.forEach((naam, af, aa) => {
+    console.log("Roll No " + af + " : " + naam+  aa);
+});
