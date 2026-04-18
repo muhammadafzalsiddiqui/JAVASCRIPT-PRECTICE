@@ -1600,8 +1600,27 @@
 //  numbers.forEach((num)=>{
 //   console.log(num, indexx, numbers)
 //  })
-let students = ["Hussain", "Ali", "Sara"];
+// let students = ["Hussain", "Ali", "Sara"];
 
-students.forEach((naam, af, aa) => {
-    console.log("Roll No " + af + " : " + naam+  aa);
-});
+// students.forEach((naam, af, aa) => {
+//     console.log("Roll No " + af + " : " + naam+  aa);
+// });
+
+
+
+var a = 20 ; 
+  
+ var a = 30;
+ a =50;
+{
+  var a = 80 ;
+}
+
+
+
+function fu(){
+  a = 90 ;
+  console.log(a)
+}
+console.log(a)
+fu()
