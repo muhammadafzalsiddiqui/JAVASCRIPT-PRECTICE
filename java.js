@@ -1608,20 +1608,33 @@
 
 
 
-var a = 20 ; 
+// var a = 20 ; 
   
- var a = 30;
- a =50;
-{
-  var a = 80 ;
-}
+//  var a = 30;
+//  a =50;
+// {
+//   var a = 80 ;
+// }
 
 
 
-function fu(){
-  a = 90 ;
-  console.log(a)
-}
-console.log(a)
-fu()
-  
+// function fu(){
+//   a = 90 ;
+//   console.log(a)
+// }
+// console.log(a)
+// fu()
+
+
+
+
+
+
+// const one = {
+//   a:"afzal",
+//   b:"",
+//   c:"",
+//   d:""
+// };
+//   console.log(one[a])
+
